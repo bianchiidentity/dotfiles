@@ -1,0 +1,25 @@
+[filter "media"]
+	clean = git-media-clean %f
+	smudge = git-media-smudge %f
+[user]
+	name = kawasakikou
+	email = forte0000000000@yahoo.co.jp
+[color]
+	ui = auto
+[alias]
+	co = checkout
+	st = status
+	br = branch
+	hist = log --pretty=format:\"%h %ad | %s%d [%an]\" --graph --date=short
+  cm = commit
+  #ログをいい感じのグラフにして表示します
+  gr = log --graph --date=short --decorate=short --pretty=format:'%Cgreen%h %Creset%cd %Cblue%cn %Cred%d %Creset%s'
+  #今日のコミットを表示します
+  today = log --oneline --since='12 hour ago'
+  #直前のコミットを取り消します
+  cancel = reset --soft HEAD^ 
+
+[core]
+	editor = vim -w
+#[http]
+#	proxy = http://2013048:4GJrRBWg@192.168.14.101:3128
