@@ -1,8 +1,5 @@
 filetype plugin indent on
 
-set runtimepath+=~/.vim/
-runtime! userautoload/*.vim
-
 syntax on
 set nowrap
 
@@ -25,9 +22,6 @@ set expandtab
 set tabstop=2
 set smarttab
 
-set clipboard=unnamed
-
-set mouse=a
 "タブを表示するようにする
 " インサートモードの時に C-j でノーマルモードに戻る
 imap <C-j> <esc>

@@ -3,12 +3,15 @@ bundle Settings.↲
 "---------------------------↲
 " bundleで管理するディレクトリを指定↲
 "---------------------------↲
+" Required:
 set runtimepath+=~/.vim/bundle/neobundle.vim/↲
+endif
 ↲
 " Required:↲
 call neobundle#begin(expand('~/.vim/bundle/'))↲
 ↲
 " neobundle自体をneobundleで管理↲
+" Required:
 NeoBundleFetch 'Shougo/neobundle.vim'↲
 " NERDTreeを設定(左にディレクトリツリーを表示させるプラグイン))↲
 NeoBundle 'scrooloose/nerdtree'↲
