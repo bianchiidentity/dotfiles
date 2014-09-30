@@ -2,8 +2,8 @@
 # Vi ライクな操作が好みであれば `bindkey -v` とする
 bindkey -v
 
-HTTPS_PROXY=http://2013048:4GJrRBWg@192.168.14.101:3128
-HTTP_PROXY=http://2013048:4GJrRBWg@192.168.14.101:3128
+export https_proxy=http://2013048:4GJrRBWg@192.168.14.101:3128
+export http_proxy=http://2013048:4GJrRBWg@192.168.14.101:3128
 
 
 # 自動補完を有効にする
