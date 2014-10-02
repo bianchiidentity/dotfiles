@@ -26,7 +26,8 @@ NeoBundle "tyru/caw.vim.git"               " コメントアウト　gci /c
 NeoBundle 'errormarker.vim'                " :make でエラーになった行を目立たせる
 NeoBundle 'Align'                          " テキストの整形
 NeoBundle 'tpope/vim-endwise'              " 対になる文字を自動で書き出してくれる
-NeoBundle 'basyura/unite-rails'           " :Unite rails/<Tab>で、Unite上にviews/controllersなどを一覧表示させる事が出来る
+NeoBundle 'basyura/unite-rails'            " :Unite rails/<Tab>で、Unite上にviews/controllersなどを一覧表示させる事が出来る
+NeoBundle 'davidhalter/jedi-vim'           " python用
 
 NeoBundle 'tomasr/molokai'                 " molokai カラースキーム
 NeoBundle 'vim-scripts/chlordane.vim'      " 緑色のかっこいいカラースキーム
