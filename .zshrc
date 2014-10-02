@@ -115,4 +115,4 @@ RPROMPT='[`rprompt-git-current-branch`%~]'
 
 
 export PATH="$HOME/.rbenv/bin:$PATH"↲
- eval "$(rbenv init -zsh)"↲
+eval "$(rbenv init - zsh)"↲
