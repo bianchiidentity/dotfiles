@@ -9,8 +9,7 @@ NeoBundleLazy "lambdalisue/vim-django-support", {
       \ }}
 
 " pyenv 処理用に vim-pyenv を追加
-" Note: depends が指定されているため jedi-vim
-より後にロードされる（ことを期待）
+" Note: depends が指定されているため jedi-vimより後にロードされる（ことを期待）
 NeoBundleLazy "lambdalisue/vim-pyenv", {
       \ "depends": ['davidhalter/jedi-vim'],
       \ "autoload": {
