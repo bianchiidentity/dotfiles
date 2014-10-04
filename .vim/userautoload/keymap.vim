@@ -1,10 +1,3 @@
-"C-j でノーマルモードに戻る
-imap <C-j> <esc>
-" [ って打ったら [] って入力されてしかも括弧の中にいる(以下同様)↲
-imap [ []<left>
-imap ( ()<left>
-imap { {}<left>
-
 nnoremap [q :cprevious<CR>   " 前へ
 nnoremap ]q :cnext<CR>       " 次へ
 nnoremap [Q :<C-u>cfirst<CR> " 最初へ
