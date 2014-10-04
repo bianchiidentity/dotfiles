@@ -19,6 +19,7 @@ set softtabstop=2
 set expandtab
 set tabstop=2
 set smarttab      "タブを表示するようにする  
+set noswapfile    " スワップファイルは使わない
 
 " 最後のカーソル位置を復元する
 if has("autocmd")
