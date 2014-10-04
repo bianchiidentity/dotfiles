@@ -11,6 +11,7 @@ NeoBundle 'Shougo/unite.vim'
 NeoBundle 'Shougo/vimproc'
 NeoBundle 'Shougo/neocomplete.vim'         " 補完
 NeoBundle 'Shougo/neosnippet.vim'          " 補完
+NeoBundle 'Shougo/neosnippet-snippets'
 
 NeoBundle 'scrooloose/nerdtree'            " NERDTreeを設定(左にディレクトリツリーを表示させるプラグイン))
 NeoBundle 'ujihisa/unite-colorscheme'      " カラースキーム一覧表示にUnite.vimを使う
