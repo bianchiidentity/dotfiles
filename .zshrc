@@ -24,7 +24,7 @@ alias push='git push'
 alias st='git status'
 alias stt='git status -uno'
 
-
+export PATH="/usr/local/bin:$PATH"
 
 # "~hoge" が特定のパス名に展開されるようにする（ブックマークのようなもの）
 # 例： cd ~hoge と入力すると /long/path/to/hogehoge ディレクトリに移動
