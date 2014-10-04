@@ -18,5 +18,12 @@ set shiftwidth=2
 set softtabstop=2
 set expandtab
 set tabstop=2
-set smarttab
-"タブを表示するようにする  
+set smarttab      "タブを表示するようにする  
+
+" 最後のカーソル位置を復元する
+if has("autocmd")
+  autocmd BufReadPost *
+    \ if line("'\"") > 0 && line ("'\"") <= line("$") |
+    \   exe "normal! g'\"" |
+    \ endif
+endif
