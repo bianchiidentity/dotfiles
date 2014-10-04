@@ -2,8 +2,8 @@
 # Vi ライクな操作が好みであれば `bindkey -v` とする
 bindkey -v
 
-export https_proxy=http://2013048:4GJrRBWg@192.168.14.101:3128
-export http_proxy=http://2013048:4GJrRBWg@192.168.14.101:3128
+#export https_proxy=http://2013048:4GJrRBWg@192.168.14.101:3128
+#export http_proxy=http://2013048:4GJrRBWg@192.168.14.101:3128
 
 
 # 自動補完を有効にする
@@ -116,3 +116,13 @@ RPROMPT='[`rprompt-git-current-branch`%~]'
 
 export PATH="$HOME/.rbenv/bin:$PATH"
 eval "$(rbenv init - zsh)"
+
+export WORKON_HOME=$HOME/.virtualenvs
+export PROJECT_HOME=$HOME/Devel
+source /usr/local/bin/virtualenvwrapper.sh
+
+export PYENV_ROOT="${HOME}/.pyenv"
+if [ -d "${PYENV_ROOT}" ]; then
+    export PATH=${PYENV_ROOT}/bin:$PATH
+    eval "$(pyenv init - zsh)"
+fi

@@ -4,15 +4,6 @@ imap <C-j> <esc>
 imap [ []<left>
 imap ( ()<left>
 imap { {}<left>
-"-- KeyMap -----------------------
-"" insertモードでhjkl移動を利用する
-imap <c-h> <Left>
-imap <c-j> <Down>
-imap <c-k> <Up>
-imap <c-l> <Right>
-"nmap <F9> :NERDTree<Enter>
-"nmap <F10> :NERDTreeClose<Enter>
-
 
 nnoremap [q :cprevious<CR>   " 前へ
 nnoremap ]q :cnext<CR>       " 次へ
@@ -27,8 +18,6 @@ nnoremap sJ <C-w>J
 nnoremap sK <C-w>K
 nnoremap sL <C-w>L
 nnoremap sH <C-w>H
-nnoremap sn gt
-nnoremap sp gT
 nnoremap sr <C-w>r
 nnoremap s= <C-w>=
 nnoremap sw <C-w>w
@@ -37,55 +26,14 @@ nnoremap sO <C-w>=
 nnoremap sN :<C-u>bn<CR>
 nnoremap sP :<C-u>bp<CR>
 nnoremap st :<C-u>tabnew<CR>
-nnoremap sT :<C-u>Unite tab<CR>
 nnoremap ss :<C-u>sp<CR>
 nnoremap sv :<C-u>vs<CR>
 nnoremap sq :<C-u>q<CR>
 nnoremap sQ :<C-u>bd<CR>
-nnoremap sb :<C-u>Unite buffer_tab -buffer-name=file<CR>
-nnoremap sB :<C-u>Unite buffer -buffer-name=file<CR>
 nnoremap ; :
 nnoremap : ;
-nnoremap <Space>h ^
-nnoremap <Space>l $
+vnoremap ; :
+vnoremap : ;
+inoremap jk  <Esc>
 
-"call submode#enter_with('bufmove', 'n', '', 's>', '<C-w>>')
-"call submode#enter_with('bufmove', 'n', '', 's<', '<C-w><')
-"call submode#enter_with('bufmove', 'n', '', 's+', '<C-w>+')
-"call submode#enter_with('bufmove', 'n', '', 's-', '<C-w>-')
-"call submode#map('bufmove', 'n', '', '>', '<C-w>>')
-"call submode#map('bufmove', 'n', '', '<', '<C-w><')
-"call submode#map('bufmove', 'n', '', '+', '<C-w>+')
-"call submode#map('bufmove', 'n', '', '-', '<C-w>-')
-" ２回esc を押したら検索のハイライトをヤメる
-nmap <Esc><Esc> :nohlsearch<CR><Esc>;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+nnoremap <silent> tt  :<C-u>tabe<CR>
