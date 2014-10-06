@@ -30,3 +30,9 @@ vnoremap : ;
 inoremap jk  <Esc>
 
 nnoremap <silent> tt  :<C-u>tabe<CR>
+
+nnoremap tp :<C-u>PosttoTwitter<CR>
+nnoremap tr :<C-u>FriendsTwitter<CR><C-w>j
+nnoremap tu :<C-u>UserTwitter<CR><C-w>j
+nnoremap tR :<C-u>RepliesTwitter<CR><C-w>j
+nnoremap tn :<C-u>NextTwitter<CR>

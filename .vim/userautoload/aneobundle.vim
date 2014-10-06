@@ -32,6 +32,9 @@ NeoBundle 'davidhalter/jedi-vim'            " python用
 NeoBundle 'nathanaelkane/vim-indent-guides' " インデントの視覚化 
 NeoBundle 'vim-scripts/AnsiEsc.vim'         " ログファイルを色づけしてくれる
 
+NeoBundle 'Twitvim'                         " vimでtwitter
+
+
 NeoBundle 'tomasr/molokai'                  " molokai カラースキーム
 NeoBundle 'vim-scripts/chlordane.vim'       " 緑色のかっこいいカラースキーム
 
