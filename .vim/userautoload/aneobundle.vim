@@ -30,7 +30,8 @@ NeoBundle 'tpope/vim-endwise'               " 対になる文字を自動で書�
 NeoBundle 'basyura/unite-rails'             " :Unite rails/<Tab>で、Unite上にviews/controllersなどを一覧表示させる事が出来る
 NeoBundle 'davidhalter/jedi-vim'            " python用
 NeoBundle 'nathanaelkane/vim-indent-guides' " インデントの視覚化 
-NeoBundle 'vim-scripts/AnsiEsc.vim'         " ログファイルを色づけしてくれる
+NeoBundle 'vim-scripts/ansiesc.vim'         " ログファイルを色づけしてくれる
+NeoBundle 'taka84u9/vim-ref-ri'
 
 NeoBundle 'Twitvim'                         " vimでtwitter
 
