@@ -38,4 +38,4 @@ nnoremap tR :<C-u>RepliesTwitter<CR><C-w>j
 nnoremap tn :<C-u>NextTwitter<CR>
 
 "emmetのキーバインド変更
-let g:user_emmet_leader_key='s'
+let g:user_emmet_leader_key='m'
