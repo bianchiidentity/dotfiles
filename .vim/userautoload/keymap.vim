@@ -39,3 +39,13 @@ nnoremap tn :<C-u>NextTwitter<CR>
 
 "emmetのキーバインド変更
 let g:user_emmet_leader_key=','
+
+inoremap {<Enter> {}<Left><CR><ESC><S-o>
+inoremap [<Enter> []<Left><CR><ESC><S-o>
+inoremap (<Enter> ()<Left><CR><ESC><S-o>
+inoremap { {}<Left>
+inoremap [ []<Left>
+inoremap ( ()<Left>
+
+
+
