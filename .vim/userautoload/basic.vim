@@ -21,6 +21,9 @@ set tabstop=2
 set smarttab      "タブを表示するようにする  
 set noswapfile    " スワップファイルは使わない
 
+set backspace=indent,eol,start    "deleteを追加
+
+
 " 最後のカーソル位置を復元する
 if has("autocmd")
   autocmd BufReadPost *
