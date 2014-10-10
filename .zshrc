@@ -26,6 +26,7 @@ alias stt='git status -uno'
 
 export PATH="/usr/local/bin:$PATH"
 
+alias brew="env PATH=${PATH/\/Users\/kawasakikou\/\.pyenv\/shims:/} brew"
 # "~hoge" が特定のパス名に展開されるようにする（ブックマークのようなもの）
 # 例： cd ~hoge と入力すると /long/path/to/hogehoge ディレクトリに移動
 hash -d hoge=/long/path/to/hogehoge
