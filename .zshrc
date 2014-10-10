@@ -23,10 +23,10 @@ alias pull='git pull'
 alias push='git push'
 alias st='git status'
 alias stt='git status -uno'
+alias v='vim'
 
 export PATH="/usr/local/bin:$PATH"
 export PATH="/usr/local/sbin:$PATH" 
-
 alias brew="env PATH=${PATH//Users/kawasakikou/.pyenv/shims:/} brew"
 # "~hoge" が特定のパス名に展開されるようにする（ブックマークのようなもの）
 # 例： cd ~hoge と入力すると /long/path/to/hogehoge ディレクトリに移動
