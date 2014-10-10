@@ -24,6 +24,10 @@ alias push='git push'
 alias st='git status'
 alias stt='git status -uno'
 alias v='vim'
+alias cm='git commit'
+alias di='git diff'
+alias dic='git diff --cached'
+alias ad='git add'
 
 export PATH="/usr/local/bin:$PATH"
 export PATH="/usr/local/sbin:$PATH" 
