@@ -22,5 +22,5 @@
 [core]
 	editor = vim -w
 	excludesfile = /Users/kawasakikouji/.gitignore
-[http]
-proxy = http://2013048:4GJrRBWg@192.168.14.101:3128
+# [http]
+# proxy = http://2013048:4GJrRBWg@192.168.14.101:3128
