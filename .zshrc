@@ -25,6 +25,7 @@ alias st='git status'
 alias stt='git status -uno'
 
 export PATH="/usr/local/bin:$PATH"
+export PATH="/usr/local/sbin:$PATH" 
 
 alias brew="env PATH=${PATH//Users/kawasakikou/.pyenv/shims:/} brew"
 # "~hoge" が特定のパス名に展開されるようにする（ブックマークのようなもの）
@@ -127,3 +128,4 @@ if [ -d "${PYENV_ROOT}" ]; then
     export PATH=${PYENV_ROOT}/bin:$PATH
     eval "$(pyenv init - zsh)"
 fi
+export PATH=/usr/local/sbin:$PATH
