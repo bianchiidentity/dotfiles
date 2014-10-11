@@ -69,10 +69,10 @@ zstyle ':completion:*:default' menu select=1
 # こうすると、 Ctrl-W でカーソル前の1単語を削除したとき、 / までで削除が止まる
 
 # カレントディレクトリのフルパスを表示する
-precmd () {
-  echo -ne "\e]2;${PWD}\a"
-  echo -ne "\e]1;${PWD}\a"
-}
+# precmd () {
+  # echo -ne "\e]2;${PWD}\a"
+  # echo -ne "\e]1;${PWD}\a"
+# }
 
 
 
@@ -133,3 +133,6 @@ if [ -d "${PYENV_ROOT}" ]; then
     eval "$(pyenv init - zsh)"
 fi
 export PATH=/usr/local/sbin:$PATH
+
+
+
