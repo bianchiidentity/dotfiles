@@ -36,8 +36,17 @@ NeoBundle 'taka84u9/vim-ref-ri'
 NeoBundle 'Twitvim'                         " vimでtwitter
 
 
-NeoBundle 'tomasr/molokai'                  " molokai カラースキーム
-NeoBundle 'vim-scripts/chlordane.vim'       " 緑色のかっこいいカラースキーム
+NeoBundle 'tomasr/molokai'                   " molokai カラースキーム
+NeoBundle 'vim-scripts/chlordane.vim'        " 緑色のかっこいいカラースキーム
+NeoBundle 'altercation/vim-colors-solarized' " solarized カラースキーム
+NeoBundle 'croaker/mustang-vim'              " mustang カラースキーム
+NeoBundle 'jeffreyiacono/vim-colors-wombat'  " wombat カラースキーム
+NeoBundle 'nanotech/jellybeans.vim'          " jellybeans カラースキーム
+NeoBundle 'vim-scripts/Lucius'               " lucius カラースキーム
+NeoBundle 'vim-scripts/Zenburn'              " zenburn カラースキーム
+NeoBundle 'mrkn/mrkn256.vim'                 " mrkn256 カラースキーム
+NeoBundle 'jpo/vim-railscasts-theme'         " railscasts カラースキーム
+NeoBundle 'therubymug/vim-pyte'              " pyte カラースキーム
 
 call neobundle#end()
 
