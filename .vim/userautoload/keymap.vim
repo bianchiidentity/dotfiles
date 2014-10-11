@@ -37,6 +37,8 @@ nnoremap tu :<C-u>UserTwitter<CR><C-w>j
 nnoremap tR :<C-u>RepliesTwitter<CR><C-w>j
 nnoremap tn :<C-u>NextTwitter<CR>
 
+nnoremap color :<C-u>Unite colorscheme -auto-preview<CR>
+
 "emmetのキーバインド変更
 let g:user_emmet_leader_key=','
 
