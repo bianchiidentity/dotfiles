@@ -46,7 +46,6 @@ alias v='vim'
 alias cm='git commit'
 alias di='git diff'
 alias dic='git diff --cached'
-alias add='git add'
 
 export PATH="/usr/local/bin:$PATH"
 export PATH="/usr/local/sbin:$PATH" 
