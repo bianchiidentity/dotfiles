@@ -13,10 +13,29 @@ autoload -U compinit; compinit
 
 # 入力したコマンドが存在せず、かつディレクトリ名と一致するなら、ディレクトリに cd する
 # 例： /usr/bin と入力すると /usr/bin ディレクトリに移動
+# ↓を設定すると、 .. とだけ入力したら1つ上のディレクトリに移動できるので……
+# 2つ上、3つ上にも移動できるようにする
 setopt auto_cd
 
-# ↑を設定すると、 .. とだけ入力したら1つ上のディレクトリに移動できるので……
-# 2つ上、3つ上にも移動できるようにする
+# コマンドを誤入力しても優しくエスコートしてくれる
+setopt correct
+
+# コマンド履歴を600000まで保存する
+HISTFILE=~/.zsh_history
+HISTSIZE=600000
+SAVEHIST=600000
+setopt hist_ignore_dups     # 同じ履歴を重複して保存しない
+setopt share_history        # 全ウィンドウでhistoryをshareする　
+
+# 履歴検索機能のショートカット設定
+# Ctrl-PとCtrl-Nに割り当てられ、複数行の編集には↓↑←→を使うといった風にすみわけができる。
+autoload history-search-end
+zle -N history-beginning-search-backward-end history-search-end
+zle -N history-beginning-search-forward-end history-search-end
+bindkey "^P" history-beginning-search-backward-end
+bindkey "^N" history-beginning-search-forward-end
+
+
 alias ...='cd ../..'
 alias ....='cd ../../..'
 alias pull='git pull'
@@ -27,7 +46,7 @@ alias v='vim'
 alias cm='git commit'
 alias di='git diff'
 alias dic='git diff --cached'
-alias ad='git add'
+alias add='git add'
 
 export PATH="/usr/local/bin:$PATH"
 export PATH="/usr/local/sbin:$PATH" 
