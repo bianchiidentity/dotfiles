@@ -11,12 +11,12 @@ let g:rails_modelines=0
 " let g:rails_ctags_arguments='--languages=-javascript'
 " let g:rails_ctags_arguments = ''
 function! SetUpRailsSetting()
-  nnoremap sr :R<CR>
-  nnoremap sa :A<CR>
-  nnoremap sm :Rmodel<Space>
-  nnoremap sc :Rcontroller<Space>
-  nnoremap sv :Rview<Space>
-  nnoremap sp :Rpreview<CR>
+  nnoremap rr :R<CR>
+  nnoremap ra :A<CR>
+  nnoremap rm :Rmodel<Space>
+  nnoremap rc :Rcontroller<Space>
+  nnoremap rv :Rview<Space>
+  nnoremap rp :Rpreview<CR>
 endfunction
 
 aug MyAutoCmd
