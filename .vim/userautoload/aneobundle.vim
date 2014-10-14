@@ -16,11 +16,11 @@ NeoBundle 'Shougo/neosnippet-snippets'
 NeoBundle 'scrooloose/nerdtree'             " NERDTreeを設定(左にディレクトリツリーを表示させるプラグイン))
 NeoBundle 'ujihisa/unite-colorscheme'       " カラースキーム一覧表示にUnite.vimを使う
 NeoBundle 'mattn/emmet-vim'                 " Emmet (HTML)
+NeoBundle 'mattn/gist-vim'                  " vimから手軽にgist投稿
 NeoBundle 'scrooloose/syntastic'            " シンタックスチェック
 NeoBundle 'kana/vim-submode'                " サイズ変更のためのsubmode
 NeoBundle 'itchyny/lightline.vim'           " ステータスラインをおしゃれにする
 NeoBundle 'rails.vim'                       " 対応するモデル・ビュー・コントローラ間を簡単に行き来できるらしい
-NeoBundle 'sudo.vim'                        " :w sudo:% で管理者権限保存ができる
 NeoBundle 'taku-o/vim-toggle'               " +でtrue <-> falseなどをtoggle
 NeoBundle 'tpope/vim-surround.git'          " 括弧を効率的に編集
 NeoBundle "tyru/caw.vim.git"                " コメントアウト　gci /c
