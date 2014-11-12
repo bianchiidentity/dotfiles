@@ -4,7 +4,9 @@ bindkey -v
 
 export https_proxy=http://2013048:4GJrRBWg@192.168.14.101:3128
 export http_proxy=http://2013048:4GJrRBWg@192.168.14.101:3128
-
+ 
+export CLICOLOR=1
+export LSCOLORS=DxGxcxdxCxegedabagacad
 
 # 自動補完を有効にする
 # コマンドの引数やパス名を途中まで入力して <Tab> を押すといい感じに補完してくれる
@@ -53,6 +55,8 @@ alias brew="env PATH=${PATH//Users/kawasakikou/.pyenv/shims:/} brew"
 # "~hoge" が特定のパス名に展開されるようにする（ブックマークのようなもの）
 # 例： cd ~hoge と入力すると /long/path/to/hogehoge ディレクトリに移動
 hash -d hoge=/long/path/to/hogehoge
+hash -d rails=~/Desktop/rails_projects
+hash -d prog=~/Desktop/programing1
 
 # cd した先のディレクトリをディレクトリスタックに追加する
 # ディレクトリスタックとは今までに行ったディレクトリの履歴のこと
@@ -151,6 +155,5 @@ if [ -d "${PYENV_ROOT}" ]; then
     eval "$(pyenv init - zsh)"
 fi
 export PATH=/usr/local/sbin:$PATH
-
 
 
