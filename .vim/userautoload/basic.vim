@@ -7,11 +7,14 @@ set smartcase
 set encoding=utf-8
 set autoindent
 
+set incsearch
+set wildmenu wildmode=longest:full,full
+" wildmode=list:full
 set ruler
 set number
 set list
 set listchars=tab:▸\.,trail:▸\,eol:↲,extends:>,precedes:<,nbsp:%
-set wildmenu
+" set wildmenu
 set showcmd
 
 set shiftwidth=2
