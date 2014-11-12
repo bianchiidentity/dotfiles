@@ -28,6 +28,7 @@ nnoremap : ;
 vnoremap ; :
 vnoremap : ;
 inoremap jk  <Esc>
+vnoremap ;; <Esc>
 
 nnoremap <silent> tt  :<C-u>tabe<CR>
 
