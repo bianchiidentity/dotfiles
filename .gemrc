@@ -1,0 +1,13 @@
+:backtrace: false
+:bulk_threshold: 1000
+:sources:
+- https://rubygems.org/
+- http://production.cf.rubygems.org
+:update_sources: true
+:verbose: true
+install: --no-rdoc --no-ri
+update: --no-rdoc --no-ri
+gem: --no-rdoc --no-ri
+/* http_proxy: http://2013048:4GJrRBWg@192.168.14.101:3128/ */
+/* https_proxy: http://2013048:4GJrRBWg@192.168.14.101:3128/ */
+
