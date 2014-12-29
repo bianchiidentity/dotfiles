@@ -2,12 +2,13 @@
 # Vi ライクな操作が好みであれば `bindkey -v` とする
 bindkey -v
 
-export https_proxy=http://2013048:4GJrRBWg@192.168.14.101:3128
-export http_proxy=http://2013048:4GJrRBWg@192.168.14.101:3128
+# export https_proxy=http://2013048:4GJrRBWg@192.168.14.101:3128
+# export http_proxy=http://2013048:4GJrRBWg@192.168.14.101:3128
  
 export CLICOLOR=1
 export LSCOLORS=DxGxcxdxCxegedabagacad
 
+#
 # 自動補完を有効にする
 # コマンドの引数やパス名を途中まで入力して <Tab> を押すといい感じに補完してくれる
 # 例： `cd path/to/<Tab>`, `ls -<Tab>`
@@ -18,9 +19,6 @@ autoload -U compinit; compinit
 # ↓を設定すると、 .. とだけ入力したら1つ上のディレクトリに移動できるので……
 # 2つ上、3つ上にも移動できるようにする
 setopt auto_cd
-
-# コマンドを誤入力しても優しくエスコートしてくれる
-setopt correct
 
 # コマンド履歴を600000まで保存する
 HISTFILE=~/.zsh_history

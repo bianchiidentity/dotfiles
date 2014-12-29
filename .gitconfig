@@ -1,6 +1,7 @@
 [filter "media"]
-	clean = git-media-clean %f
-	smudge = git-media-smudge %f
+	required = true
+	clean = git media clean %f
+	smudge = git media smudge %f
 [user]
 	name = kawasakikou
 	email = forte0000000000@yahoo.co.jp
@@ -22,5 +23,5 @@
 [core]
 	editor = vim -w
 	excludesfile = /Users/kawasakikouji/.gitignore
-[http]
-proxy = http://2013048:4GJrRBWg@192.168.14.101:3128
+# [http]
+# proxy = http://2013048:4GJrRBWg@192.168.14.101:3128
