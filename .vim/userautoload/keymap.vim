@@ -13,7 +13,6 @@ nnoremap sL <C-w>L
 nnoremap sH <C-w>H
 nnoremap sr <C-w>r
 nnoremap s= <C-w>=
-nnoremap sw <C-w>w
 nnoremap so <C-w>_<C-w>|
 nnoremap sO <C-w>=
 nnoremap sN :<C-u>bn<CR>
