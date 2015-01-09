@@ -35,8 +35,6 @@ NeoBundle 'vim-scripts/ansiesc.vim'         " ログファイルを色づけし�
 NeoBundle 'taka84u9/vim-ref-ri'             " リファレンス読める
 NeoBundle 'thinca/vim-quickrun'             " コードをファイルに保存せずに実行する事が出来る
 NeoBundle 'jiangmiao/auto-pairs'            " {}とか自動で’入れてくれる
-NeoBundle 'slim-template/vim-slim'          "slim記法
-NeoBundle 'kchmck/vim-coffee-script'        " syntax + 自動compile
 NeoBundle 'alpaca-tc/alpaca_tags'           " ctagsの自動生成
 
 NeoBundle 'hail2u/vim-css3-syntax'
@@ -44,7 +42,15 @@ NeoBundle 'pangloss/vim-javascript'
 NeoBundle 'othree/html5.vim'
 NeoBundle 'AtsushiM/search-parent.vim'
 NeoBundle 'AtsushiM/sass-compile.vim'
-NeoBundle 'kchmck/vim-coffee-script'
+NeoBundle 'kchmck/vim-coffee-script'        " syntax + 自動compile
+NeoBundle 'slim-template/vim-slim'          "slim記法
+
+"-------------------Haskell------------------------- 
+" NeoBundle 'vim2hs'
+NeoBundle 'eagletmt/ghcmod-vim'
+NeoBundle 'ujihisa/neco-ghc'
+NeoBundle 'osyo-manga/vim-watchdogs'
+NeoBundle 'kana/vim-filetype-haskell'
 
 NeoBundle 'Twitvim'                         " vimでtwitter
 
