@@ -2,8 +2,8 @@
 # Vi ライクな操作が好みであれば `bindkey -v` とする
 bindkey -v
 
-# export https_proxy=http://2013048:4GJrRBWg@192.168.14.101:3128
-# export http_proxy=http://2013048:4GJrRBWg@192.168.14.101:3128
+export https_proxy=http://2013048:4GJrRBWg@192.168.14.101:3128
+export http_proxy=http://2013048:4GJrRBWg@192.168.14.101:3128
  
 export CLICOLOR=1
 export LSCOLORS=DxGxcxdxCxegedabagacad
@@ -46,6 +46,7 @@ alias v='vim'
 alias cm='git commit'
 alias di='git diff'
 alias dic='git diff --cached'
+alias chorome="open -a Google\ Chrome "
 
 export PATH="/usr/local/bin:$PATH"
 export PATH="/usr/local/sbin:$PATH" 
