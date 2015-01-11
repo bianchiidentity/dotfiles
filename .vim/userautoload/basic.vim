@@ -13,7 +13,7 @@ set wildmenu wildmode=longest:full,full
 set ruler
 set number
 set list
-set listchars=tab:▸\.,trail:▸\,eol:↲,extends:>,precedes:<,nbsp:%
+set listchars=tab:>-,trail:▸\,eol:↲,extends:>,precedes:<,nbsp:%
 " set wildmenu
 set showcmd
 
@@ -27,7 +27,6 @@ set noswapfile    " スワップファイルは使わない
 set backspace=indent,eol,start    "deleteできるように
 set cursorline "カレント行のハイライト
 set cursorcolumn "カレント列のハイライト
-
 
 " 最後のカーソル位置を復元する
 if has("autocmd")
