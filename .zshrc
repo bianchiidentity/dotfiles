@@ -1,9 +1,9 @@
 # Emacs ライクな操作を有効にする（文字入力中に Ctrl-F,B でカーソル移動など）
 # Vi ライクな操作が好みであれば `bindkey -v` とする
-bindkey -v
+bindkey -e
 
-export https_proxy=http://2013048:4GJrRBWg@192.168.14.101:3128
-export http_proxy=http://2013048:4GJrRBWg@192.168.14.101:3128
+# export https_proxy=http://2013048:4GJrRBWg@192.168.14.101:3128
+# export http_proxy=http://2013048:4GJrRBWg@192.168.14.101:3128
  
 export CLICOLOR=1
 export LSCOLORS=DxGxcxdxCxegedabagacad
