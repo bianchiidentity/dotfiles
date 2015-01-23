@@ -12,8 +12,9 @@ NeoBundle 'Shougo/vimproc.vim'
 NeoBundle 'Shougo/neocomplete.vim'          " 補完
 NeoBundle 'Shougo/neosnippet.vim'           " 補完
 NeoBundle 'Shougo/neosnippet-snippets'
+NeoBundle 'Shougo/neomru.vim'
 
-NeoBundle 'scrooloose/nerdtree'             " NERDTreeを設定(左にディレクトリツリーを表示させるプラグイン))
+" NeoBundle 'scrooloose/nerdtree'             " NERDTreeを設定(左にディレクトリツリーを表示させるプラグイン))
 NeoBundle 'ujihisa/unite-colorscheme'       " カラースキーム一覧表示にUnite.vimを使う
 NeoBundle 'mattn/emmet-vim'                 " Emmet (HTML)
 "NeoBundle 'mattn/gist-vim'                  " vimから手軽にgist投稿
