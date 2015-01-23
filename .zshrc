@@ -2,8 +2,8 @@
 # Vi ライクな操作が好みであれば `bindkey -v` とする
 bindkey -e
 
-# export https_proxy=http://2013048:4GJrRBWg@192.168.14.101:3128
-# export http_proxy=http://2013048:4GJrRBWg@192.168.14.101:3128
+export https_proxy=http://2013048:4GJrRBWg@192.168.14.101:3128
+export http_proxy=http://2013048:4GJrRBWg@192.168.14.101:3128
  
 export CLICOLOR=1
 export LSCOLORS=DxGxcxdxCxegedabagacad
@@ -19,6 +19,9 @@ autoload -U compinit; compinit
 # ↓を設定すると、 .. とだけ入力したら1つ上のディレクトリに移動できるので……
 # 2つ上、3つ上にも移動できるようにする
 setopt auto_cd
+
+# 大文字小文字を無視して補完
+zstyle ':completion:*' matcher-list 'm:{a-z}={A-Z}'
 
 # コマンド履歴を600000まで保存する
 HISTFILE=~/.zsh_history
@@ -155,4 +158,9 @@ if [ -d "${PYENV_ROOT}" ]; then
 fi
 export PATH=/usr/local/sbin:$PATH
 
+# Add GHC 7.8.3 to the PATH, via http://ghcformacosx.github.io/
+export GHC_DOT_APP="/opt/homebrew-cask/Caskroom/ghc/7.8.3-r1/ghc-7.8.3.app"
+if [ -d "$GHC_DOT_APP" ]; then
+    export PATH="${HOME}/.cabal/bin:${GHC_DOT_APP}/Contents/bin:${PATH}"
+fi
 
