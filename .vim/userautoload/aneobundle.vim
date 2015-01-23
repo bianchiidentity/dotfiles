@@ -8,7 +8,7 @@ call neobundle#begin(expand('~/.vim/bundle/'))
 " Required:
 NeoBundleFetch 'Shougo/neobundle.vim'
 NeoBundle 'Shougo/unite.vim'
-NeoBundle 'Shougo/vimproc'
+NeoBundle 'Shougo/vimproc.vim'
 NeoBundle 'Shougo/neocomplete.vim'          " 補完
 NeoBundle 'Shougo/neosnippet.vim'           " 補完
 NeoBundle 'Shougo/neosnippet-snippets'
@@ -26,6 +26,7 @@ NeoBundle 'tpope/vim-surround.git'          " 括弧を効率的に編集
 NeoBundle "tyru/caw.vim.git"                " コメントアウト　gci /c
 NeoBundle 'errormarker.vim'                 " :make でエラーになった行を目立たせる
 NeoBundle 'Align'                           " テキストの整形
+NeoBundle 'grep.vim'
 
 NeoBundle 'tpope/vim-endwise'               " 対になる文字を自動で書き出してくれる
 NeoBundle 'basyura/unite-rails'             " :Unite rails/<Tab>で、Unite上にviews/controllersなどを一覧表示させる事が出来る
@@ -46,7 +47,7 @@ NeoBundle 'kchmck/vim-coffee-script'        " syntax + 自動compile
 NeoBundle 'slim-template/vim-slim'          "slim記法
 
 "-------------------Haskell------------------------- 
-" NeoBundle 'vim2hs'
+NeoBundle 'dag/vim2hs'
 NeoBundle 'eagletmt/ghcmod-vim'
 NeoBundle 'ujihisa/neco-ghc'
 NeoBundle 'osyo-manga/vim-watchdogs'
