@@ -22,6 +22,11 @@ nnoremap ss :<C-u>sp<CR>
 nnoremap sv :<C-u>vs<CR>
 nnoremap sq :<C-u>q<CR>
 nnoremap sQ :<C-u>bd<CR>
+noremap! <C-A> <Home>
+noremap! <C-E> <End>
+noremap! <C-F> <Right>
+noremap! <C-B> <Left>
+noremap! <C-D> <Del>
 nnoremap ; :
 nnoremap : ;
 vnoremap ; :
@@ -33,6 +38,7 @@ nnoremap <silent> tt  :<C-u>tabe<CR>
 nnoremap ZQ <Nop>
 
 nnoremap color :<C-u>Unite colorscheme -auto-preview<CR>
+
 
 "emmetのキーバインド変更
 let g:user_emmet_leader_key=','
