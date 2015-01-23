@@ -12,7 +12,3 @@ autocmd User Rails.view*                 NeoSnippetSource ~/.vim/snippet/ruby.ra
 autocmd User Rails.controller*           NeoSnippetSource ~/.vim/snippet/ruby.rails.controller.snip
 autocmd User Rails/db/migrate/*          NeoSnippetSource ~/.vim/snippet/ruby.rails.migrate.snip
 autocmd User Rails/config/routes.rb      NeoSnippetSource ~/.vim/snippet/ruby.rails.route.snip
-
-let twitvim_browser_cmd = 'open' " for Mac
-let twitvim_force_ssl = 1 
-let twitvim_count = 40

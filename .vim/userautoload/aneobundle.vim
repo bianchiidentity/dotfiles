@@ -53,7 +53,7 @@ NeoBundle 'ujihisa/neco-ghc'
 NeoBundle 'osyo-manga/vim-watchdogs'
 NeoBundle 'kana/vim-filetype-haskell'
 
-NeoBundle 'Twitvim'                         " vimでtwitter
+" NeoBundle 'Twitvim'                         " vimでtwitter
 
 
 NeoBundle 'tomasr/molokai'                   " molokai カラースキーム
