@@ -39,7 +39,12 @@ nnoremap ZQ <Nop>
 
 nnoremap color :<C-u>Unite colorscheme -auto-preview<CR>
 
+nnoremap <Space>h <Home>
+nnoremap <Space>l <End>
+
+" ペースト
+nnoremap <silent><C-p> "*p
 
 "emmetのキーバインド変更
-let g:user_emmet_leader_key=','
+" let g:user_emmet_leader_key=','
 
