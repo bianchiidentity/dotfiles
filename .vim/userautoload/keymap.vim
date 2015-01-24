@@ -22,17 +22,18 @@ nnoremap ss :<C-u>sp<CR>
 nnoremap sv :<C-u>vs<CR>
 nnoremap sq :<C-u>q<CR>
 nnoremap sQ :<C-u>bd<CR>
-noremap! <C-A> <Home>
-noremap! <C-E> <End>
-noremap! <C-F> <Right>
-noremap! <C-B> <Left>
-noremap! <C-D> <Del>
+inoremap <C-A> <Home>
+inoremap <C-E> <End>
+inoremap <C-F> <Right>
+inoremap <C-B> <Left>
+inoremap <C-D> <Del>
 nnoremap ; :
 nnoremap : ;
 vnoremap ; :
 vnoremap : ;
 inoremap jk  <Esc>
 vnoremap ;; <Esc>
+
 
 nnoremap <silent> tt  :<C-u>tabe<CR>
 nnoremap ZQ <Nop>
