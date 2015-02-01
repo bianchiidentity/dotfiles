@@ -2,8 +2,8 @@
 # Vi ライクな操作が好みであれば `bindkey -v` とする
 bindkey -e
 
-export https_proxy=http://2013048:4GJrRBWg@192.168.14.101:3128
-export http_proxy=http://2013048:4GJrRBWg@192.168.14.101:3128
+# export https_proxy=http://2013048:4GJrRBWg@192.168.14.101:3128
+# export http_proxy=http://2013048:4GJrRBWg@192.168.14.101:3128
  
 export CLICOLOR=1
 export LSCOLORS=DxGxcxdxCxegedabagacad
@@ -50,10 +50,14 @@ alias cm='git commit -m'
 alias gita='git add'
 alias di='git diff'
 alias dic='git diff --cached'
+alias lst='ls -lta'
 alias chorome="open -a Google\ Chrome "
+alias lsg='ls|grep'
+alias xa='xargs -I {}'
 
 export PATH="/usr/local/bin:$PATH"
 export PATH="/usr/local/sbin:$PATH" 
+export PATH="~/.rbenv/plugins:$PATH" 
 alias brew="env PATH=${PATH//Users/kawasakikou/.pyenv/shims:/} brew"
 # "~hoge" が特定のパス名に展開されるようにする（ブックマークのようなもの）
 # 例： cd ~hoge と入力すると /long/path/to/hogehoge ディレクトリに移動
@@ -165,3 +169,11 @@ if [ -d "$GHC_DOT_APP" ]; then
     export PATH="${HOME}/.cabal/bin:${GHC_DOT_APP}/Contents/bin:${PATH}"
 fi
 
+# zsh-completions
+if [ -e /usr/local/share/zsh-completions  ]; then
+    fpath=(/usr/local/share/zsh-completions $fpath)
+fi
+
+# rbenv binstubs setting
+export PATH=./vendor/bin:$PATH
+alias be='bundle exec'
