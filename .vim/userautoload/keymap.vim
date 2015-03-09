@@ -34,6 +34,7 @@ vnoremap : ;
 inoremap jk  <Esc>
 vnoremap ;; <Esc>
 
+nnoremap sd :vertical diffsplit
 
 nnoremap <silent> tt  :<C-u>tabe<CR>
 nnoremap ZQ <Nop>
