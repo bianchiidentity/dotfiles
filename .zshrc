@@ -45,6 +45,7 @@ alias pull='git pull'
 alias push='git push'
 alias st='git status'
 alias stt='git status -uno'
+alias gitdiff='git difftool --tool=vimdiff --no-prompt'
 alias v='vim'
 alias cm='git commit -m'
 alias gita='git add'
@@ -54,6 +55,9 @@ alias lst='ls -lta'
 alias chorome="open -a Google\ Chrome "
 alias lsg='ls|grep'
 alias xa='xargs -I {}'
+alias bundleinstall= "bundle install --path=vendor/bundle --binstubs=vendor/bin"
+alias buill= "bundle install --path=vendor/bundle"
+
 
 export PATH="/usr/local/bin:$PATH"
 export PATH="/usr/local/sbin:$PATH" 
