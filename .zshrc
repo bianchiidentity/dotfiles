@@ -181,3 +181,21 @@ fi
 # rbenv binstubs setting
 export PATH=./vendor/bin:$PATH
 alias be='bundle exec'
+
+# C-jで下のディレクトリに移動する
+function cddown_dir(){
+com='$SHELL -c "ls -AF . | grep / "'
+while [ $? = 0 ]
+do
+    cdir=`eval $com | peco`
+    if [ $? = 0 ];then
+        cd $cdir
+        eval $com
+    else
+        break
+    fi
+done
+zle reset-prompt
+}
+zle -N cddown_dir
+bindkey '^k' cddown_dir
