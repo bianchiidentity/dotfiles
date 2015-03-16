@@ -182,7 +182,7 @@ fi
 export PATH=./vendor/bin:$PATH
 alias be='bundle exec'
 
-# C-jで下のディレクトリに移動する
+# C-kで下のディレクトリに移動する
 function cddown_dir(){
 com='$SHELL -c "ls -AF . | grep / "'
 while [ $? = 0 ]
