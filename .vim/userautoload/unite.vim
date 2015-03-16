@@ -26,18 +26,18 @@ nnoremap <silent> ,ur :<C-u>Unite -buffer-name=register register<CR>
 nnoremap <silent> ,uu :<C-u>Unite file_mru buffer<CR>
 
 nnoremap <silent> ,urc :<C-u>Unite file_rec/async:app/controllers/ <CR>
-nnoremap <silent> ,urfc :<C-u>Unite file file/new -input=app/controllers/ <CR>
+nnoremap <silent> ,urnc :<C-u>Unite file file/new -input=app/controllers/ <CR>
 nnoremap <silent> ,urm :<C-u>Unite file_rec/async:app/models/ <CR>
-nnoremap <silent> ,urfm :<C-u>Unite file file/new -input=app/models/ <CR>
+nnoremap <silent> ,urnm :<C-u>Unite file file/new -input=app/models/ <CR>
 nnoremap <silent> ,urv :<C-u>Unite file_rec/async:app/views/ <CR>
-nnoremap <silent> ,urfv :<C-u>Unite file file/new -input=app/views/ <CR>
+nnoremap <silent> ,urnv :<C-u>Unite file file/new -input=app/views/ <CR>
 nnoremap <silent> ,urs :<C-u>Unite file_rec/async:app/assets/stylesheets/ <CR>
-nnoremap <silent> ,urfs :<C-u>Unite file file/new -input=app/assets/stylesheets/ <CR>
+nnoremap <silent> ,urns :<C-u>Unite file file/new -input=app/assets/stylesheets/ <CR>
 nnoremap <silent> ,urj :<C-u>Unite file_rec/async:app/assets/javascripts/ <CR>
-nnoremap <silent> ,urfj :<C-u>Unite file file/new -input=app/assets/javascripts/ <CR>
+nnoremap <silent> ,urnj :<C-u>Unite file file/new -input=app/assets/javascripts/ <CR>
 nnoremap <silent> ,uro :<C-u>Unite file_rec/async:config/ <CR>
-nnoremap <silent> ,urfo :<C-u>Unite file file/new -input=config/ <CR>
+nnoremap <silent> ,urno :<C-u>Unite file file/new -input=config/ <CR>
 nnoremap <silent> ,url :<C-u>Unite file_rec/async:lib/ <CR>
-nnoremap <silent> ,urfl :<C-u>Unite file file/new -input=lib/ <CR>
+nnoremap <silent> ,urnl :<C-u>Unite file file/new -input=lib/ <CR>
 nnoremap <silent> ,urr :<C-u>Unite file_rec/async:spec/ <CR>
-nnoremap <silent> ,urfr :<C-u>Unite file file/new -input=spec/ <CR>
+nnoremap <silent> ,urnr :<C-u>Unite file file/new -input=spec/ <CR>
