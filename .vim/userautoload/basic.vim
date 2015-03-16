@@ -35,3 +35,10 @@ if has("autocmd")
     \   exe "normal! g'\"" |
     \ endif
 endif
+
+" def endの%移動
+if !exists('loaded_matchit')
+    " matchitを有効化
+    runtime macros/matchit.vim
+    endif
+endif
