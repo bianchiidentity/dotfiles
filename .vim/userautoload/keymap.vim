@@ -19,6 +19,7 @@ nnoremap sO <C-w>=
 nnoremap sN :<C-u>bn<CR>
 nnoremap sP :<C-u>bp<CR>
 nnoremap st :<C-u>tabnew<CR>
+nnoremap sd :vertical diffsplit
 nnoremap ss :<C-u>sp<CR>
 nnoremap sv :<C-u>vs<CR>
 nnoremap sq :<C-u>q<CR>
@@ -35,8 +36,6 @@ vnoremap : ;
 inoremap jk  <Esc>
 vnoremap ;; <Esc>
 
-nnoremap sd :vertical diffsplit
-
 nnoremap <silent> tt  :<C-u>tabe<CR>
 nnoremap ZQ <Nop>
 
@@ -48,6 +47,10 @@ nnoremap <Space>l <End>
 " ペースト
 nnoremap <silent><C-p> "*p
 
-"emmetのキーバインド変更
+" emmetのキーバインド変更
 " let g:user_emmet_leader_key=','
 
+noremap <Space>h  ^
+noremap <Space>l  $
+nnoremap <Space>/  *
+noremap <Space>m  %
