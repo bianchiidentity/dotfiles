@@ -55,6 +55,9 @@ NeoBundle 'ujihisa/neco-ghc'
 NeoBundle 'osyo-manga/vim-watchdogs'
 NeoBundle 'kana/vim-filetype-haskell'
 
+" --------------------Lisp---------------------------
+NeoBundle 'slimv.vim'
+"
 " NeoBundle 'Twitvim'                         " vimでtwitter
 
 
