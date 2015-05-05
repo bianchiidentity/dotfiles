@@ -7,6 +7,8 @@ bindkey -e
  
 export CLICOLOR=1
 export LSCOLORS=DxGxcxdxCxegedabagacad
+export RAILS_DATABASE_USERNAME=railsuser
+export RAILS_DATABASE_PASSWORD=railspass
 
 #
 # 自動補完を有効にする
@@ -50,6 +52,7 @@ alias v='vim'
 alias cm='git commit -m'
 alias gita='git add'
 alias di='git diff'
+alias dih='git diff HEAD'
 alias dic='git diff --cached'
 alias lst='ls -lta'
 alias chorome="open -a Google\ Chrome "
