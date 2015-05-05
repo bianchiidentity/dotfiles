@@ -21,7 +21,9 @@
   cancel = reset --soft HEAD^ 
 
 [core]
-	editor = vim -w
+	editor = vim -c \"set fenc=utf-8\"
 	excludesfile = /Users/kawasakikouji/.gitignore
 # [http]
 # proxy = http://2013048:4GJrRBWg@192.168.14.101:3128
+[hub]
+	protocol = https
