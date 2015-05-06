@@ -2,15 +2,16 @@
 # Vi ライクな操作が好みであれば `bindkey -v` とする
 bindkey -e
 
-# export https_proxy=http://2013048:4GJrRBWg@192.168.14.101:3128
-# export http_proxy=http://2013048:4GJrRBWg@192.168.14.101:3128
- 
+export https_proxy=http://2013048:4GJrRBWg@192.168.14.101:3128
+export http_proxy=http://2013048:4GJrRBWg@192.168.14.101:3128
 export CLICOLOR=1
 export LSCOLORS=DxGxcxdxCxegedabagacad
 export RAILS_DATABASE_USERNAME=railsuser
 export RAILS_DATABASE_PASSWORD=railspass
+export PATH="/usr/local/bin:$PATH"
+export PATH="/usr/local/sbin:$PATH" 
+export PATH="~/.rbenv/plugins:$PATH" 
 
-#
 # 自動補完を有効にする
 # コマンドの引数やパス名を途中まで入力して <Tab> を押すといい感じに補完してくれる
 # 例： `cd path/to/<Tab>`, `ls -<Tab>`
@@ -62,9 +63,6 @@ alias bundleinstall= "bundle install --path=vendor/bundle --binstubs=vendor/bin"
 alias buill= "bundle install --path=vendor/bundle"
 
 
-export PATH="/usr/local/bin:$PATH"
-export PATH="/usr/local/sbin:$PATH" 
-export PATH="~/.rbenv/plugins:$PATH" 
 alias brew="env PATH=${PATH//Users/kawasakikou/.pyenv/shims:/} brew"
 # "~hoge" が特定のパス名に展開されるようにする（ブックマークのようなもの）
 # 例： cd ~hoge と入力すると /long/path/to/hogehoge ディレクトリに移動
@@ -109,9 +107,6 @@ zstyle ':completion:*:default' menu select=1
   # echo -ne "\e]2;${PWD}\a"
   # echo -ne "\e]1;${PWD}\a"
 # }
-
-
-
 
 WORDCHARS='*?_-.[]~=&;!#$%^(){}<>'
 
