@@ -50,7 +50,7 @@ autocmd FileType scheme nnoremap <Space>g :GoshREPL <CR>
 nnoremap <silent><C-p> "*p
 
 " emmetのキーバインド変更
-" let g:user_emmet_leader_key=','
+let g:user_emmet_leader_key=','
 
 noremap <Space>h  ^
 noremap <Space>l  $
