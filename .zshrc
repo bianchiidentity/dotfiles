@@ -61,6 +61,7 @@ alias lsg='ls|grep'
 alias xa='xargs -I {}'
 alias bundleinstall= "bundle install --path=vendor/bundle --binstubs=vendor/bin"
 alias buill= "bundle install --path=vendor/bundle"
+alias gosh='rlwrap gosh'
 
 
 alias brew="env PATH=${PATH//Users/kawasakikou/.pyenv/shims:/} brew"
