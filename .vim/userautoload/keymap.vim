@@ -44,6 +44,7 @@ nnoremap color :<C-u>Unite colorscheme -auto-preview<CR>
 nnoremap <Space>h <Home>
 nnoremap <Space>l <End>
 autocmd FileType scheme nnoremap <Space>s :!gosh -l %:p<CR>
+autocmd FileType scheme nnoremap <Space>g :GoshREPL <CR>
 
 " ペースト
 nnoremap <silent><C-p> "*p
