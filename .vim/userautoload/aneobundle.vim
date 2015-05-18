@@ -57,6 +57,7 @@ NeoBundle 'kana/vim-filetype-haskell'
 
 " --------------------Lisp---------------------------
 NeoBundle 'slimv.vim'
+NeoBundle 'aharisu/vim_goshrepl'
 "
 " NeoBundle 'Twitvim'                         " vimでtwitter
 
