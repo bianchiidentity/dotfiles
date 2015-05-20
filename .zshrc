@@ -62,6 +62,7 @@ alias xa='xargs -I {}'
 alias bundleinstall= "bundle install --path=vendor/bundle --binstubs=vendor/bin"
 alias buill= "bundle install --path=vendor/bundle"
 alias gosh='rlwrap gosh'
+alias phantomjs='phantomjs --proxy='http://192.168.14.101:3128' --proxy-auth='2013048:4GJrRBWg''
 
 
 alias brew="env PATH=${PATH//Users/kawasakikou/.pyenv/shims:/} brew"
