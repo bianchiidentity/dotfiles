@@ -33,10 +33,7 @@ nnoremap ; :
 nnoremap : ;
 vnoremap ; :
 vnoremap : ;
-inoremap jk  <Esc>
-vnoremap ;; <Esc>
-
-nnoremap <silent> tt  :<C-u>tabe<CR>
+inoremap ht <Esc>
 nnoremap ZQ <Nop>
 
 nnoremap color :<C-u>Unite colorscheme -auto-preview<CR>
