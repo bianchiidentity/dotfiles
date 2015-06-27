@@ -53,3 +53,8 @@ noremap <Space>h  ^
 noremap <Space>l  $
 nnoremap <Space>/  *
 noremap <Space>m  %
+
+
+" dvorak
+nnoremap t k
+nnoremap m j
