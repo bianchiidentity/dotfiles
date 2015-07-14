@@ -2,7 +2,7 @@ nnoremap    [unite]   <nop>
 nmap    <Space>u [unite]
  
 nnoremap [unite]u  :<c-u>Unite -no-split<space>
-nnoremap <silent> [unite]f :<c-u>Unite<space>buffer<cr>
+nnoremap <silent> [unite]f :<c-u>Unite<space>file<space>buffer<cr>
 nnoremap <silent> [unite]b :<c-u>Unite<space>bookmark<cr>
 nnoremap <silent> [unite]m :<c-u>Unite<space>file_mru<cr>
 nnoremap <silent> [unite]uu :<c-u>Unite<space>file_mru file<cr>
