@@ -1,9 +1,10 @@
 # Emacs ライクな操作を有効にする（文字入力中に Ctrl-F,B でカーソル移動など）
 # Vi ライクな操作が好みであれば `bindkey -v` とする
 bindkey -e
-
-export https_proxy=http://2013048:4GJrRBWg@192.168.14.101:3128
-export http_proxy=http://2013048:4GJrRBWg@192.168.14.101:3128
+# cd progra
+# ls
+# export https_proxy=http://2013048:4GJrRBWg@192.168.14.101:3128
+# export http_proxy=http://2013048:4GJrRBWg@192.168.14.101:3128
 export CLICOLOR=1
 export LSCOLORS=DxGxcxdxCxegedabagacad
 export RAILS_DATABASE_USERNAME=railsuser
@@ -11,6 +12,10 @@ export RAILS_DATABASE_PASSWORD=railspass
 export PATH="/usr/local/bin:$PATH"
 export PATH="/usr/local/sbin:$PATH" 
 export PATH="~/.rbenv/plugins:$PATH" 
+
+export DOCKER_HOST=tcp://192.168.59.103:2375
+unset DOCKER_CERT_PATH
+unset DOCKER_TLS_VERIFY
 
 # 自動補完を有効にする
 # コマンドの引数やパス名を途中まで入力して <Tab> を押すといい感じに補完してくれる

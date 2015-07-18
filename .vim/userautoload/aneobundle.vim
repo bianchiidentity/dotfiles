@@ -39,6 +39,7 @@ NeoBundle 'vim-scripts/ansiesc.vim'         " ログファイルを色づけし�
 NeoBundle 'thinca/vim-quickrun'             " コードをファイルに保存せずに実行する事が出来る
 NeoBundle 'jiangmiao/auto-pairs'            " {}とか自動で’入れてくれる
 NeoBundle 'alpaca-tc/alpaca_tags'           " ctagsの自動生成
+NeoBundle 'tpope/vim-fugitive'              " vim git wrapper plugin
 
 " NeoBundle 'hail2u/vim-css3-syntax'
 " NeoBundle 'pangloss/vim-javascript'
