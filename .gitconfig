@@ -19,6 +19,8 @@
   today = log --oneline --since='12 hour ago'
   #直前のコミットを取り消します
   cancel = reset --soft HEAD^ 
+  #addされているコミットを確認します
+  dia = diff --cached
 
 [core]
 	editor = vim -c \"set fenc=utf-8\"
