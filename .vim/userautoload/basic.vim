@@ -6,6 +6,7 @@ set ignorecase
 set smartcase
 set encoding=utf-8
 set autoindent
+set clipboard=unnamed,autoselect
 
 set incsearch
 set wildmenu wildmode=longest:full,full

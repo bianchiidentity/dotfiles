@@ -7,10 +7,6 @@ nnoremap s <Nop>
 nnoremap sj <C-w>j
 nnoremap sk <C-w>k
 nnoremap sl <C-w>l
-nnoremap sh <C-w>h
-nnoremap sJ <C-w>J
-nnoremap sK <C-w>K
-nnoremap sL <C-w>L
 nnoremap sH <C-w>H
 nnoremap sr <C-w>r
 nnoremap s= <C-w>=
@@ -18,7 +14,7 @@ nnoremap so <C-w>_<C-w>|
 nnoremap sO <C-w>=
 nnoremap sN :<C-u>bn<CR>
 nnoremap sP :<C-u>bp<CR>
-nnoremap st :<C-u>tabnew<CR>
+nnoremap sp :<C-u>tabnew<CR>
 nnoremap sd :vertical diffsplit
 nnoremap ss :<C-u>sp<CR>
 nnoremap sv :<C-u>vs<CR>
@@ -27,7 +23,6 @@ nnoremap sQ :<C-u>bd<CR>
 inoremap <C-A> <Home>
 inoremap <C-E> <End>
 inoremap <C-F> <Right>
-inoremap <C-B> <Left>
 inoremap <C-D> <Del>
 nnoremap ; :
 nnoremap : ;
@@ -58,3 +53,10 @@ noremap <Space>m  %
 " dvorak
 nnoremap t k
 nnoremap m j
+vnoremap t k
+vnoremap m j
+
+nnoremap sh <C-w>h
+nnoremap sm <C-w>J
+nnoremap st <C-w>K
+nnoremap sl <C-w>L

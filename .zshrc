@@ -1,8 +1,7 @@
 # Emacs ライクな操作を有効にする（文字入力中に Ctrl-F,B でカーソル移動など）
 # Vi ライクな操作が好みであれば `bindkey -v` とする
 bindkey -e
-# cd progra
-# ls
+
 # export https_proxy=http://2013048:4GJrRBWg@192.168.14.101:3128
 # export http_proxy=http://2013048:4GJrRBWg@192.168.14.101:3128
 export CLICOLOR=1
@@ -64,10 +63,11 @@ alias lst='ls -lta'
 alias chorome="open -a Google\ Chrome "
 alias lsg='ls|grep'
 alias xa='xargs -I {}'
-alias bundleinstall= "bundle install --path=vendor/bundle --binstubs=vendor/bin"
-alias buill= "bundle install --path=vendor/bundle"
+alias buill= "bundle install --path=vendor/bundle --binstubs=vendor/bin"
 alias gosh='rlwrap gosh'
 alias phantomjs='phantomjs --proxy='http://192.168.14.101:3128' --proxy-auth='2013048:4GJrRBWg''
+alias gg='git grep -e'
+
 
 
 alias brew="env PATH=${PATH//Users/kawasakikou/.pyenv/shims:/} brew"
