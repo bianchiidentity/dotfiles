@@ -20,7 +20,6 @@ set showcmd
 
 set shiftwidth=2
 set softtabstop=2
-set expandtab
 set tabstop=2
 set smarttab      "タブを表示するようにする  
 set noswapfile    " スワップファイルは使わない
