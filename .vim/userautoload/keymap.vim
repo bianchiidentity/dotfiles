@@ -7,8 +7,6 @@ nnoremap s <Nop>
 nnoremap s= <C-w>=
 nnoremap so <C-w>_<C-w>|
 nnoremap sO <C-w>=
-nnoremap sN :<C-u>bn<CR>
-nnoremap sP :<C-u>bp<CR>
 nnoremap sp :<C-u>tabnew<CR>
 nnoremap sd :vertical diffsplit
 nnoremap ss :<C-u>sp<CR>
@@ -28,8 +26,6 @@ nnoremap ZQ <Nop>
 
 nnoremap color :<C-u>Unite colorscheme -auto-preview<CR>
 
-nnoremap <Space>h <Home>
-nnoremap <Space>l <End>
 autocmd FileType scheme nnoremap <Space>s :!gosh -l %:p<CR>
 autocmd FileType scheme nnoremap <Space>g :GoshREPL <CR>
 
@@ -50,6 +46,7 @@ nnoremap t k
 nnoremap m j
 vnoremap t k
 vnoremap m j
+nnoremap n l
 
 nnoremap sh <C-w>h
 nnoremap sm <C-w>J
