@@ -29,3 +29,5 @@
 # proxy = http://2013048:4GJrRBWg@192.168.14.101:3128
 [hub]
 	protocol = https
+[push]
+	default = simple
