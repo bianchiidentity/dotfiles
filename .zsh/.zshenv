@@ -4,10 +4,10 @@ $HOME/local/sbin
 $HOME/bin
 /sbin
 /bin
-/usr/sbin
-/usr/bin
 /usr/local/sbin
 /usr/local/bin
+/usr/sbin
+/usr/bin
 $HOME/.rbenv/plugins
 )
 
