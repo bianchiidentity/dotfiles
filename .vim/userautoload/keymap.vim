@@ -46,9 +46,8 @@ nnoremap t k
 nnoremap m j
 vnoremap t k
 vnoremap m j
-nnoremap n l
 
 nnoremap sh <C-w>h
-nnoremap sm <C-w>J
-nnoremap st <C-w>K
-nnoremap sl <C-w>L
+nnoremap sm <C-w>j
+nnoremap st <C-w>k
+nnoremap sl <C-w>l
