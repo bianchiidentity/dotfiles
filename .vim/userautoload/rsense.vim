@@ -1,9 +1,9 @@
-NeoBundle 'Shougo/vimproc', {
-  \ 'build' : {
-  \     'mac' : 'make -f make_mac.mak',
-  \     'unix' : 'make -f make_unix.mak',
-  \    },
-  \ }
+" NeoBundle 'Shougo/vimproc', {
+"   \ 'build' : {
+"   \     'mac' : 'make -f make_mac.mak',
+"   \     'unix' : 'make -f make_unix.mak',
+"   \    },
+"   \ }
 NeoBundleLazy 'supermomonga/neocomplete-rsense.vim', { 'autoload' : {
   \ 'insert' : 1,
   \ 'filetypes': 'ruby',

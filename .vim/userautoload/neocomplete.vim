@@ -1,6 +1,3 @@
-" if_luaが有効ならneocompleteを使う
-NeoBundle has('lua') ? 'Shougo/neocomplete' : 'Shougo/neocomplcache'
-
 if neobundle#is_installed('neocomplete')
   " neocomplete用設定
   let g:neocomplete#enable_at_startup = 1
