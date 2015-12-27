@@ -10,6 +10,7 @@ deploy:
 
 init:
 	@$(foreach val, $(wildcard ./etc/init/*.sh), bash $(val);)
+	@DOTPATH=$(DOTPATH) bash $(DOTPATH)/etc/init/init.sh
 
 list:
 	@$(foreach val, $(DOTFILES), /bin/ls -dF $(val);)
