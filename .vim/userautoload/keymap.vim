@@ -21,7 +21,7 @@ nnoremap ; :
 nnoremap : ;
 vnoremap ; :
 vnoremap : ;
-inoremap ht <Esc>
+inoremap hh <Esc>
 nnoremap ZQ <Nop>
 
 nnoremap color :<C-u>Unite colorscheme -auto-preview<CR>
@@ -49,5 +49,5 @@ vnoremap m j
 
 nnoremap sh <C-w>h
 nnoremap sm <C-w>j
-nnoremap st <C-w>k
-nnoremap sl <C-w>l
+nnoremap st <C-w>l
+nnoremap sl <C-w>t

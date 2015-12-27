@@ -1,4 +1,6 @@
-nnoremap <silent> <Space>gb :Gblame<CR>
-nnoremap <silent> <Space>gd :Gdiff<CR>
-nnoremap <silent> <Space>gst :Gstatus<CR>
+nnoremap <silent> gb :Gblame<CR>
+nnoremap <silent> gd :Gdiff<CR>
+nnoremap <silent> gst :Gstatus<CR>
+nnoremap <silent> ga :Gwrite<CR>
+nnoremap <silent> gcm :Gcommit<CR>
 

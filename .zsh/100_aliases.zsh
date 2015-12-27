@@ -20,3 +20,4 @@ alias phantomjs='phantomjs --proxy='http://192.168.14.101:3128' --proxy-auth='20
 alias gg='git grep -e'
 alias brew="env PATH=${PATH//Users/kawasakikou/.pyenv/shims:/} brew"
 alias tn='trans {ja=en}'
+alias rspec='rspec . --color --format documentation'

@@ -31,3 +31,5 @@
 	protocol = https
 [push]
 	default = simple
+[init]
+	templatedir = .git_tmp
