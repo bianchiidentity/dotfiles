@@ -8,7 +8,6 @@ call neobundle#begin(expand('~/.vim/bundle/'))
 " Required:
 NeoBundleFetch 'Shougo/neobundle.vim'
 NeoBundle 'Shougo/unite.vim'
-NeoBundle 'Shougo/vimproc.vim'
 NeoBundle 'Shougo/neocomplete'
 NeoBundle 'Shougo/neosnippet.vim'           " 補完
 NeoBundle 'Shougo/neosnippet-snippets'
@@ -29,11 +28,11 @@ NeoBundle 'tpope/vim-endwise'               " 対になる文字を自動で書�
 NeoBundle 'thinca/vim-quickrun'             " コードをファイルに保存せずに実行する事が出来る
 NeoBundle 'jiangmiao/auto-pairs'            " {}とか自動で’入れてくれる
 NeoBundle 'tpope/vim-fugitive'              " vim git wrapper plugin
+NeoBundle 'rhysd/clever-f.vim'              " カーソル移動
 " NeoBundle 'soramugi/auto-ctags.vim'
 
 " NeoBundle 'scrooloose/nerdtree'             " NERDTreeを設定(左にディレクトリツリーを表示させるプラグイン))
-" NeoBundle 'mattn/emmet-vim'                 " Emmet (HTML)
-" NeoBundle 'mattn/gist-vim'                  " vimから手軽にgist投稿
+NeoBundle 'mattn/emmet-vim'                 " Emmet (HTML)
 " NeoBundle 'rails.vim'                       " 対応するモデル・ビュー・コントローラ間を簡単に行き来できる
 
 " NeoBundle 'basyura/unite-rails'             " :Unite rails/<Tab>で、Unite上にviews/controllersなどを一覧表示させる事が出来る

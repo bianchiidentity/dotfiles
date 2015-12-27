@@ -9,7 +9,6 @@ deploy:
 	@$(foreach val, $(DOTFILES), ln -sfnv $(abspath $(val)) $(HOME)/$(val);)
 
 init:
-	@$(foreach val, $(wildcard ./etc/init/*.sh), bash $(val);)
 	@DOTPATH=$(DOTPATH) bash $(DOTPATH)/etc/init/init.sh
 
 list:

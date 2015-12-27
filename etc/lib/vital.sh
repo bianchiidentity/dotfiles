@@ -1,1 +1,1 @@
-../install
+$DOTPATH/etc/install

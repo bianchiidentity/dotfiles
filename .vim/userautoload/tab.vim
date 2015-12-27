@@ -25,3 +25,5 @@ endfunction "}}}
 let &tabline = '%!'.  s:SID_PREFIX() .  'my_tabline()'
 set showtabline=2 " 常にタブラインを表示
 
+
+

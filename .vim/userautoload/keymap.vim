@@ -16,12 +16,13 @@ nnoremap sQ :<C-u>bd<CR>
 inoremap <C-A> <Home>
 inoremap <C-E> <End>
 inoremap <C-F> <Right>
-inoremap <C-D> <Del>
+inoremap <C-B> <Left>
 nnoremap ; :
 nnoremap : ;
 vnoremap ; :
 vnoremap : ;
 inoremap hh <Esc>
+vnoremap hh <Esc>
 nnoremap ZQ <Nop>
 
 nnoremap color :<C-u>Unite colorscheme -auto-preview<CR>
@@ -35,19 +36,21 @@ nnoremap <silent><C-p> "*p
 " emmetのキーバインド変更
 let g:user_emmet_leader_key=','
 
-noremap <Space>h  ^
-noremap <Space>l  $
-nnoremap <Space>/  *
-noremap <Space>m  %
-
-
 " dvorak
+" up
 nnoremap t k
-nnoremap m j
 vnoremap t k
+" down
+nnoremap m j
 vnoremap m j
+"right
+nnoremap l w
+vnoremap l w
+"left
+nnoremap h b
 
+"switching tab
 nnoremap sh <C-w>h
 nnoremap sm <C-w>j
-nnoremap st <C-w>l
-nnoremap sl <C-w>t
+nnoremap st <C-w>k
+nnoremap sl <C-w>l
