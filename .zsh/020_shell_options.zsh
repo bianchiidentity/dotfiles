@@ -3,6 +3,7 @@ autoload -U compinit; compinit
 
 # 入力したコマンドが存在せず、かつディレクトリ名と一致するなら、ディレクトリに cd する
 setopt auto_cd
+cdpath=(.. ~ ~/progra/working_now)
 
 # 大文字小文字を無視して補完
 zstyle ':completion:*' matcher-list 'm:{a-z}={A-Z}'
@@ -38,3 +39,8 @@ export LSCOLORS=DxGxcxdxCxegedabagacad
 if [ -e /usr/local/share/zsh-completions  ]; then
     fpath=(/usr/local/share/zsh-completions $fpath)
 fi
+
+# sphinx-apidoc の際に必要だったので追加
+export LC_ALL='ja_JP.UTF-8'
+
+export PAGER='vimpager'

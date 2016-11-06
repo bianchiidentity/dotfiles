@@ -7,9 +7,15 @@ nnoremap s <Nop>
 nnoremap s= <C-w>=
 nnoremap so <C-w>_<C-w>|
 nnoremap sO <C-w>=
+
+nnoremap [e  :<c-u>execute 'move -1-'. v:count1<cr>
+nnoremap ]e  :<c-u>execute 'move +'. v:count1<cr>
+
+"switching tab
 nnoremap sp :<C-u>tabnew<CR>
+nnoremap ss gT
+
 nnoremap sd :vertical diffsplit
-nnoremap ss :<C-u>sp<CR>
 nnoremap sv :<C-u>vs<CR>
 nnoremap sq :<C-u>q<CR>
 nnoremap sQ :<C-u>bd<CR>
@@ -21,8 +27,8 @@ nnoremap ; :
 nnoremap : ;
 vnoremap ; :
 vnoremap : ;
-inoremap hh <Esc>
-vnoremap hh <Esc>
+inoremap <Space>h <Esc>
+vnoremap <Space>h <Esc>
 nnoremap ZQ <Nop>
 
 nnoremap color :<C-u>Unite colorscheme -auto-preview<CR>
@@ -40,17 +46,27 @@ let g:user_emmet_leader_key=','
 " up
 nnoremap t k
 vnoremap t k
+nnoremap k t
+vnoremap k t
 " down
 nnoremap m j
 vnoremap m j
+nnoremap j m
+vnoremap j m
 "right
-nnoremap l w
-vnoremap l w
+nnoremap l e
+vnoremap l e
+nnoremap e l
+vnoremap e l
 "left
 nnoremap h b
+nnoremap b h
 
-"switching tab
+
+
+"switching window
 nnoremap sh <C-w>h
 nnoremap sm <C-w>j
 nnoremap st <C-w>k
 nnoremap sl <C-w>l
+

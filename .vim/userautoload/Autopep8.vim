@@ -1,3 +1,4 @@
+let g:syntastic_python_checkers = ['pyflakes', 'pep8']
 " original http://stackoverflow.com/questions/12374200/using-uncrustify-with-vim/15513829#15513829
 function! Preserve(command)
     " Save the last search.
@@ -24,4 +25,4 @@ function! Autopep8()
 endfunction
 
 " Shift + F で自動修正
-autocmd FileType python nnoremap <S-1> :call Autopep8()<CR>
+autocmd FileType python nnoremap <S-s> :call Autopep8()<CR>
