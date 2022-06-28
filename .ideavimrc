@@ -1,0 +1,82 @@
+set number
+set noswapfile
+set termguicolors
+set tabstop=2
+set shiftwidth=2
+set expandtab
+set clipboard=unnamed
+set visualbell t_vb=
+
+nnoremap <Space> <nop>
+nnoremap [Q :<C-u>cfirst<CR> ” 最初へ
+nnoremap ]Q :<C-u>clast<CR>  ” 最後へ
+nnoremap s <Nop>
+nnoremap s= <C-w>=
+
+“remapping redo
+nnoremap <C-u> <C-r>
+“surround
+vnoremap ( <nop>
+vnoremap ' <nop>
+set surround
+
+” undo cursor
+nnoremap so <C-o>
+” code fold
+nnoremap - :action FoldingGroup<CR>
+nnoremap <Space>u :action FindUsages<CR>
+
+
+nnoremap <Space>e :action SearchEverywhere<CR>
+nnoremap <Space>g :action FindInPath<CR>
+nnoremap gd :action GotoDeclaration<CR>
+nnoremap U :action FindUsages<CR>
+nnoremap R :action RenameElement<CR>
+nnoremap <Space>a :action GotoAction<CR>
+vnoremap sc :action CommentWithLineComment<CR>
+nnoremap == :action ReformatCode<CR>
+vnoremap == :action ReformatCode<CR>
+
+“switching tab
+nnoremap sp :<C-u>tabnew<CR>
+
+nnoremap sd :vertical diffsplit
+nnoremap sv :<C-u>vs<CR>
+nnoremap sq :<C-u>q<CR>
+nnoremap sQ :<C-u>bd<CR>
+inoremap <C-A> <Home>
+inoremap <C-E> <End>
+inoremap <C-F> <Right>
+inoremap <C-B> <Left>
+nnoremap ; :
+nnoremap : ;
+vnoremap ; :
+vnoremap : ;
+inoremap <Space>h <Esc>
+vnoremap <Space>h <Esc>
+
+” dvorak
+” up
+nnoremap t k
+vnoremap t k
+nnoremap k t
+vnoremap k t
+” down
+nnoremap m j
+vnoremap m j
+nnoremap j m
+vnoremap j m
+“right
+nnoremap e n
+vnoremap e n
+nnoremap n e
+vnoremap n e
+“left
+nnoremap h b
+nnoremap b h
+
+“switching window
+nnoremap sh <C-w>h
+nnoremap sm <C-w>j
+nnoremap st <C-w>k
+nnoremap sl <C-w>l
