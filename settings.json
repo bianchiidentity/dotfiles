@@ -1,0 +1,59 @@
+{
+    "files.autoSave": "onFocusChange",
+    "editor.renderWhitespace": "all",
+    "editor.formatOnPaste": true,
+    "editor.formatOnSave": true,
+    "editor.formatOnType": true,
+    "files.insertFinalNewline": true,
+    "files.trimFinalNewlines": true,
+    "files.trimTrailingWhitespace": true,
+    "explorer.confirmDelete": false,
+    "editor.minimap.showSlider": "always",
+    "editor.renderLineHighlight": "all",
+    "editor.renderControlCharacters": true,
+    "vim.vimrc.enable": true,
+    "vim.vimrc.path": "~/.ideavimrc",
+    "editor.autoClosingQuotes": "always",
+    "editor.autoClosingBrackets": "always",
+    "workbench.iconTheme": "material-icon-theme",
+    "editor.suggestSelection": "first",
+    "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
+    "gitlens.advanced.messages": {
+        "suppressGitMissingWarning": true
+    },
+    "editor.cursorStyle": "line",
+    "editor.lineNumbers": "on",
+    "editor.wordSeparators": "/\\()\"':,.;<>~!@#$%^&*|+=[]{}`?-",
+    "editor.wordWrap": "off",
+    "[typescriptreact]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+                "typescript.updateImportsOnFileMove.enabled": "always",
+                "cSpell.userWords": [
+                    "autorun",
+                    "jsonify",
+                    "pipenv",
+                    "raspi",
+                    "twilio",
+                    "TWIML"
+                ],
+                "[typescript]": {
+                    "editor.defaultFormatter": "esbenp.prettier-vscode"
+                },
+                "files.autoSaveDelay": 10000,
+                "javascript.updateImportsOnFileMove.enabled": "always",
+                "python.autoComplete.extraPaths": [
+                    "/Users/kou/.local/share/virtualenvs/IotFactoryDrainageServer-v76yBIP0/lib/python3.8/site-packages"
+                ],
+                "python.formatting.autopep8Path": "/Users/kou/.pyenv/shims/autopep8",
+                "python.analysis.extraPaths": [
+                    "/Users/kou/.local/share/virtualenvs/IotFactoryDrainageServer-v76yBIP0/lib/python3.8/site-packages"
+                ],
+                "workbench.editor.enablePreview": false,
+                "workbench.colorTheme": "Visual Studio 2019 Dark",
+                "vim.useSystemClipboard": true,
+                "git.suggestSmartCommit": false,
+                "git.autofetch": true,
+                "workbench.startupEditor": "none",
+                "git.confirmSync": false
+}
