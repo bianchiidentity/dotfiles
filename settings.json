@@ -1,5 +1,5 @@
 {
-    "files.autoSave": "onFocusChange",
+    "files.autoSave": "afterDelay",
     "editor.renderWhitespace": "all",
     "editor.formatOnPaste": true,
     "editor.formatOnSave": true,
@@ -15,7 +15,6 @@
     "vim.vimrc.path": "~/.ideavimrc",
     "editor.autoClosingQuotes": "always",
     "editor.autoClosingBrackets": "always",
-    "workbench.iconTheme": "material-icon-theme",
     "editor.suggestSelection": "first",
     "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
     "gitlens.advanced.messages": {
@@ -26,34 +25,155 @@
     "editor.wordSeparators": "/\\()\"':,.;<>~!@#$%^&*|+=[]{}`?-",
     "editor.wordWrap": "off",
     "[typescriptreact]": {
+        "editor.defaultFormatter": "vscode.typescript-language-features"
+    },
+    "typescript.updateImportsOnFileMove.enabled": "always",
+    "cSpell.userWords": [
+        "autorun",
+        "Autosize",
+        "awscli",
+        "awscodestar",
+        "AWSJSON",
+        "awsvpc",
+        "clsx",
+        "DIZC",
+        "fargate",
+        "fileb",
+        "Infy",
+        "jsonify",
+        "Laravel",
+        "licence",
+        "listoutput",
+        "listzip",
+        "phpcs",
+        "pipenv",
+        "raspi",
+        "reactn",
+        "testid",
+        "twilio",
+        "TWIML",
+        "usecase",
+        "versionupfiles"
+    ],
+    "[typescript]": {
         "editor.defaultFormatter": "esbenp.prettier-vscode"
     },
-                "typescript.updateImportsOnFileMove.enabled": "always",
-                "cSpell.userWords": [
-                    "autorun",
-                    "jsonify",
-                    "pipenv",
-                    "raspi",
-                    "twilio",
-                    "TWIML"
-                ],
-                "[typescript]": {
-                    "editor.defaultFormatter": "esbenp.prettier-vscode"
-                },
-                "files.autoSaveDelay": 10000,
-                "javascript.updateImportsOnFileMove.enabled": "always",
-                "python.autoComplete.extraPaths": [
-                    "/Users/kou/.local/share/virtualenvs/IotFactoryDrainageServer-v76yBIP0/lib/python3.8/site-packages"
-                ],
-                "python.formatting.autopep8Path": "/Users/kou/.pyenv/shims/autopep8",
-                "python.analysis.extraPaths": [
-                    "/Users/kou/.local/share/virtualenvs/IotFactoryDrainageServer-v76yBIP0/lib/python3.8/site-packages"
-                ],
-                "workbench.editor.enablePreview": false,
-                "workbench.colorTheme": "Visual Studio 2019 Dark",
-                "vim.useSystemClipboard": true,
-                "git.suggestSmartCommit": false,
-                "git.autofetch": true,
-                "workbench.startupEditor": "none",
-                "git.confirmSync": false
+    "files.autoSaveDelay": 10000,
+    "javascript.updateImportsOnFileMove.enabled": "always",
+    "python.autoComplete.extraPaths": [
+        "/Users/bianchi/.local/share/virtualenvs/IotFactoryDrainageServer-v76yBIP0/lib/python3.8/site-packages"
+    ],
+    "python.formatting.autopep8Path": "/Users/bianchi/.pyenv/shims/autopep8",
+    "python.analysis.extraPaths": [
+        "/Users/bianchi/.local/share/virtualenvs/IotFactoryDrainageServer-v76yBIP0/lib/python3.8/site-packages"
+    ],
+    "vim.useSystemClipboard": true,
+    "git.suggestSmartCommit": false,
+    "git.autofetch": true,
+    "workbench.startupEditor": "none",
+    "git.confirmSync": false,
+    "editor.inlineSuggest.enabled": true,
+    "redhat.telemetry.enabled": true,
+    "workbench.iconTheme": "material-icon-theme",
+    "intelephense.diagnostics.undefinedTypes": false,
+    "intelephense.diagnostics.undefinedFunctions": false,
+    "intelephense.diagnostics.undefinedConstants": false,
+    "intelephense.diagnostics.undefinedClassConstants": false,
+    "intelephense.diagnostics.undefinedMethods": false,
+    "intelephense.diagnostics.undefinedProperties": false,
+    "intelephense.diagnostics.undefinedVariables": false,
+    "phpcs.executablePath": "/Users/bianchi/.composer/vendor/bin/phpcs",
+    "explorer.compactFolders": false,
+    "snyk.yesWelcomeNotification": false,
+    "githubPullRequests.pullBranch": "never",
+    "editor.tabSize": 2,
+    "indentRainbow.colorOnWhiteSpaceOnly": true,
+    "snyk.advanced.cliPath": "/Users/bianchi/Library/Application Support/snyk-ls/snyk-macos",
+    "[dockerfile]": {
+        "editor.defaultFormatter": "ms-azuretools.vscode-docker"
+    },
+    "snyk.advanced.autoScanOpenSourceSecurity": true,
+    "snyk.yesTelemetry": false,
+    "snyk.yesCrashReport": false,
+    "snyk.advanced.advancedMode": true,
+    "dart.openDevTools": "flutter",
+    "snyk.trustedFolders": [
+        "/Users/bianchi/working/rust/hello-world",
+        "/Users/bianchi/working/keepeye/frontend",
+        "/Users/bianchi/working/keepeye-release-package",
+        "/Users/bianchi/working/keepeye/backend",
+        "/Users/bianchi/working/keepeye-bwlist-generator",
+        "/Users/bianchi/working/keepeye-zip-bwlist-with-password",
+        "/Users/bianchi/working/rust/nes_ebook",
+        "/Users/bianchi/working/prog",
+        "/Users/bianchi/working/sec",
+        "/Users/bianchi/working/local_horse",
+        "/Users/bianchi/working/diary",
+        "/Users/bianchi/working/portfolio"
+    ],
+    "diffEditor.ignoreTrimWhitespace": true,
+    "[python]": {
+        "editor.formatOnType": true
+    },
+    "vim.normalModeKeyBindingsNonRecursive": [
+        {
+            "before": [
+                "u"
+            ],
+            "after": [],
+            "commands": [
+                {
+                    "command": "undo"
+                }
+            ]
+        },
+        {
+            "before": [
+                "<C-u>"
+            ],
+            "after": [],
+            "commands": [
+                {
+                    "command": "redo"
+                }
+            ]
+        }
+    ],
+    "editor.inlayHints.enabled": "off",
+    "workbench.colorCustomizations": {
+        "editor.lineHighlightBackground": "#1073cf2d",
+        "editor.lineHighlightBorder": "#9fced11f"
+    },
+    "diffEditor.wordWrap": "off",
+    "editor.guides.indentation": false,
+    "editor.guides.bracketPairs": false,
+    "snyk.folderConfigs": [
+        {
+            "folderPath": "/Users/bianchi/working/portfolio",
+            "baseBranch": "main",
+            "localBranches": [
+                "main"
+            ]
+        }
+    ],
+    "[shellscript]": {
+        "editor.defaultFormatter": "mads-hartmann.bash-ide-vscode"
+    },
+    "application.shellEnvironmentResolutionTimeout": 20,
+    "database-client.autoSync": true,
+    "git.openRepositoryInParentFolders": "always",
+    "explorer.fileNesting.patterns": {
+        "*.ts": "${capture}.js",
+        "*.js": "${capture}.js.map, ${capture}.min.js, ${capture}.d.ts",
+        "*.jsx": "${capture}.js",
+        "*.tsx": "${capture}.ts",
+        "tsconfig.json": "tsconfig.*.json",
+        "package.json": "package-lock.json, yarn.lock, pnpm-lock.yaml, bun.lockb",
+        "*.sqlite": "${capture}.${extname}-*",
+        "*.db": "${capture}.${extname}-*",
+        "*.sqlite3": "${capture}.${extname}-*",
+        "*.db3": "${capture}.${extname}-*",
+        "*.sdb": "${capture}.${extname}-*",
+        "*.s3db": "${capture}.${extname}-*"
+    }
 }
